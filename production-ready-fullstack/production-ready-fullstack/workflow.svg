@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" font-family="'SF Mono', 'Consolas', 'Monaco', monospace">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8b949e"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="200" fill="none"/>
+
+  <!-- steps -->
+  <!-- 1 Discovery -->
+  <rect x="10" y="70" width="108" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="64" y="95" text-anchor="middle" fill="#58a6ff" font-size="12">1</text>
+  <text x="64" y="114" text-anchor="middle" fill="#c9d1d9" font-size="12">Discovery</text>
+  <line x1="118" y1="100" x2="148" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 2 Architecture -->
+  <rect x="150" y="70" width="118" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="209" y="95" text-anchor="middle" fill="#58a6ff" font-size="12">2</text>
+  <text x="209" y="114" text-anchor="middle" fill="#c9d1d9" font-size="12">Architecture</text>
+  <line x1="268" y1="100" x2="298" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 3 Backend -->
+  <rect x="300" y="70" width="108" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="354" y="95" text-anchor="middle" fill="#58a6ff" font-size="12">3</text>
+  <text x="354" y="114" text-anchor="middle" fill="#c9d1d9" font-size="12">Backend</text>
+  <line x1="408" y1="100" x2="438" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 4 Frontend -->
+  <rect x="440" y="70" width="108" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="494" y="95" text-anchor="middle" fill="#58a6ff" font-size="12">4</text>
+  <text x="494" y="114" text-anchor="middle" fill="#c9d1d9" font-size="12">Frontend</text>
+  <line x1="548" y1="100" x2="578" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 5 Security -->
+  <rect x="580" y="60" width="108" height="80" rx="8" fill="#2d1518" stroke="#f85149"/>
+  <text x="634" y="88" text-anchor="middle" fill="#f85149" font-size="12">5</text>
+  <text x="634" y="107" text-anchor="middle" fill="#f85149" font-size="12" font-weight="bold">Security</text>
+  <text x="634" y="123" text-anchor="middle" fill="#f85149" font-size="9">no shortcuts</text>
+  <line x1="688" y1="100" x2="718" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 6 Deployment -->
+  <rect x="720" y="70" width="118" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="779" y="95" text-anchor="middle" fill="#58a6ff" font-size="12">6</text>
+  <text x="779" y="114" text-anchor="middle" fill="#c9d1d9" font-size="12">Deployment</text>
+  <line x1="838" y1="100" x2="868" y2="100" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 7/8 Scan + Report -->
+  <rect x="870" y="60" width="118" height="80" rx="8" fill="#0d2818" stroke="#3fb950"/>
+  <text x="929" y="85" text-anchor="middle" fill="#3fb950" font-size="12">7+8</text>
+  <text x="929" y="104" text-anchor="middle" fill="#3fb950" font-size="12">Scan +</text>
+  <text x="929" y="120" text-anchor="middle" fill="#3fb950" font-size="12">Report</text>
+
+  <text x="500" y="30" text-anchor="middle" fill="#8b949e" font-size="13">Discovery → Architecture → Backend → Frontend → Security → Deployment → Automated Scan → Audit Report</text>
+  <text x="500" y="175" text-anchor="middle" fill="#8b949e" font-size="11">Every step feeds the final report. Security is the one step this skill refuses to soften.</text>
+</svg>
